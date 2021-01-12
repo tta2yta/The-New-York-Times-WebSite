@@ -110,3 +110,7 @@ margin-left: 30%;
 .main-body-2 {
   margin: 0 300px 0px 300px;
 }
+figure{
+  padding: 0;
+  margin: 0;
+}
