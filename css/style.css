@@ -157,9 +157,6 @@ figcaption {
   margin-left: 10%;
 }
 
-.letter > section{
-  border: 1px solid red;
-}
 .suggested-letters{
   display: flex;
   flex-direction: column;
@@ -168,6 +165,7 @@ figcaption {
 .suggested-letter-items{
   display: flex;
   flex-direction: row;
+  margin: 20px 0 20px 0;
 }
 .suggested-letter-head h2, .popular-letter-head h2{
   border-top: 1px solid black;
@@ -218,4 +216,7 @@ hr{
 display: flex;
 flex-direction: column;
 width: 30%;
+}
+.bottom-line{
+  border-top: 1px solid black;
 }
