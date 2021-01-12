@@ -63,7 +63,8 @@ body{
   
 
 }
-.headline > p {
+
+.headline {
   margin-left: 25%;
   margin-bottom: 50px;
 }
