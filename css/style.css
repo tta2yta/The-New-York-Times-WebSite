@@ -120,3 +120,11 @@ figure{
 figcaption {
   color: #666;
 }
+.bottom-of-page {
+  font-size: 0.8rem;
+  color:#666;
+}
+.bottom-of-page a {
+  text-decoration: underline;
+  color:#666;
+}
