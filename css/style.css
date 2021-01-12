@@ -1,31 +1,34 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
+
 .menu {
   display: flex;
   flex-direction: row;
   margin-bottom: 63px;
   border-bottom: 1px solid #e2e2e2;
-  background-color:white;
-  position: relative;
+  background-color: white;
   top: 0;
   position: fixed;
   width: 100%;
 }
-.menu > div{
+
+.menu > div {
   background-color: white;
   width: 35%;
   margin-bottom: 5px;
 }
-.img-logo{
+
+.img-logo {
   max-width: 250px;
   margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
-
 }
-.img-side-menu, .search-btn-img {
+
+.img-side-menu,
+.search-btn-img {
   background-color: white;
   width: 30px;
   height: 30px;
@@ -33,51 +36,57 @@ body{
   margin-top: 20px;
 }
 
-.login{
+.login {
   text-align: right;
 }
-.div-logo{
+
+.div-logo {
   text-align: center;
 }
-.login button{
+
+.login button {
   margin-top: 25px;
   margin-right: 20px;
   margin-bottom: 13px;
   margin-left: 20px;
-  background-color: Transparent;
-    border: 1px solid black;
-    cursor:pointer;
-    overflow: hidden;
-    border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor:pointer;
+  overflow: hidden;
+  border-radius: 3px;
 }
-.side-menu{
+
+.side-menu {
   margin-top: 10px;
   margin-left: 20px;
 }
+
 .title h1 {
   text-align: left;
-  font-style : italic;
+  font-style: italic;
   max-width: 600px;
   line-height: 3rem;
   font-size: 2.7rem;
-  max-width: 600px;
   font-weight: 500;
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 15px;
-  
-
 }
 
 .headline {
+  padding-top: 100px;
   margin-left: 25%;
   margin-bottom: 50px;
+  font-weight: bolder;
 }
+
 .main-img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  max-width: 100%; 
   height: 530px;
 }
+
 .description {
   text-align:left;
   margin-left: 13%;
@@ -87,9 +96,11 @@ body{
   width: 70%;
   margin-top: 5px;
 }
+
 .credit {
   font-size: 10px;
 }
+
 .credit-1::before {
   width: 60px;
   content: "";
@@ -99,63 +110,76 @@ body{
   background-color: black;
   margin-left:8px;
 }
+
 .credit-1 {
   text-align: left;
   margin-left:5%;
 }
-.main-topic {
 
+.main-topic {
   margin: 0 30% 0px 30%;
 }
+
 .name-and-date {
   text-align: left;
 }
+
 .first-text p {
   justify-content: left;
   font-size: 1.4rem;
 }
-.first-text h3{
+
+.first-text h3 {
   font-size: 1.7rem;
 }
-.theory-of-avi-grid{
+
+.theory-of-avi-grid {
   display: flex;
   flex-direction: row;
   margin-left: 10%;
 }
 
-.theory-of-avi h3, .theory-of-avi p.avi-parag{
+.theory-of-avi h3, .theory-of-avi p.avi-parag {
   margin-bottom: 0;
   margin-top: 0;
   margin-left: 10%;
 }
-.theory-of-avi p.avi-parag{
+
+.theory-of-avi p.avi-parag {
   color: #666;
   width: 80%;
 }
-.theory-of-avi-grid div img, .theory-of-avi-grid div p{
+
+.theory-of-avi-grid div img, .theory-of-avi-grid div p {
   width: 280px;
   height: 150px;
 }
-.theory-of-avi-grid div{
+
+.theory-of-avi-grid div {
   margin-right: 20px;
 }
+
 .second-text p {
   justify-content: left;
   font-size: 1.4rem;
 }
-.second-text h3{
+
+.second-text h3 {
   font-size: 1.7rem;
 }
+
 .main-body-2 {
   margin: 0 30% 0px 30%;
 }
-figure{
+
+figure {
   padding: 0;
   margin: 0;
 }
 .credit {
   color: #888;
 }
+
 figcaption {
   color: #666;
 }
@@ -163,10 +187,12 @@ figcaption {
   font-size: 0.8rem;
   color:#666;
 }
+
 .bottom-of-page a {
   text-decoration: underline;
   color:#666;
 }
+
 .comment-button {
   color:white;
   background-color:rgb(86, 123, 149);
@@ -180,132 +206,144 @@ figcaption {
   max-width: 70%;
   width:50%; 
 }
+
 .bottom-button {
   margin-top: 20px;
 }
 
-
-.letter{
+.letter {
   display: flex;
   flex-direction: row;
   margin-left: 10%;
   margin-right: 10%; 
 }
-.letter-head{
+
+.letter-head {
   display: flex;
   margin-left: 10%;
 }
 
-.suggested-letters{
+.suggested-letters {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
-.suggested-letter-items, .space-and-astronomy-items{
+
+.suggested-letter-items, .space-and-astronomy-items {
   display: flex;
   flex-direction: row;
   margin: 20px 0 20px 0;
 }
-.space-and-astronomy-items{
+
+.space-and-astronomy-items {
   margin-top: 0;
 }
 
-.suggested-letter-head h2, .popular-letter-head h2{
+.suggested-letter-head h2, .popular-letter-head h2 {
   border-top: 1px solid black;
   margin-right: 20px ;
 }
-.suggested-letter-items > div, .popular > div{
+
+.suggested-letter-items > div, .popular > div {
   border-top: 1px solid #6666;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid #6666;
 }
-.space-and-astronomy-items > div{
+
+.space-and-astronomy-items > div {
   padding: 20px 0 20px 0;
 }
-.space-and-astronomy-title{
+
+.space-and-astronomy-title {
   font-weight: bold;
 }
-.suggested-letter-items img{
+
+.suggested-letter-items img {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-.space-and-astronomy-items img{
+
+.space-and-astronomy-items img {
   width: 100%;
   height: 150px;
 }
-.suggested-letter-items span{
+
+.suggested-letter-items span {
   display: block;
   margin: 0;
   margin-left: 10px;
 }
 
-
-.news-letters-desc, .sp-as-items-desc{
+.news-letters-desc, .sp-as-items-desc {
   width: 100%;
 }
-.news-letters-desc p, .news-letters-desc h2, .sp-as-items-desc p, .sp-as-items-desc h2{
+
+.news-letters-desc p, .news-letters-desc h2, .sp-as-items-desc p, .sp-as-items-desc h2 {
   margin: 0;
   margin-left: 10px;
 }
-.news-letters-desc p, .sp-as-items-desc p{
+
+.news-letters-desc p, .sp-as-items-desc p {
   padding-bottom: 30px;
 }
-.news-letters{
+
+.news-letters {
   border: 1px solid grey;
   margin-right: 20px;
   padding: 10px;
   width: 33%;
   position: relative;
 }
-.sp-as-items{
+
+.sp-as-items {
   margin-right: 20px;
   padding: 10px;
   width: 33%;
 }
-.latest{
+
+.latest {
   padding-top: 50px;
   color: #3331ad;
   position: absolute;
   bottom: 0;
 }
-hr{
-  margin-left: 10%;
-  width: 60%;
-  margin-bottom: 30px;
-  background-color: black;
-  border-color: black;
-}
-.popular-letters{
+
+.popular-letters {
 display: flex;
 flex-direction: column;
 width: 30%;
 }
-.bottom-line{
+
+.bottom-line {
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
 }
-.popular-letters li:first-child{
+
+.popular-letters li:first-child {
   border-top: 1px solid #6666 ;
 }
 
-.popular-letters li{
+.popular-letters li {
   border-bottom: 1px solid #6666;
   padding: 10px;
   list-style: none;
   color: black;
-}
-.img-title-as{
+} 
+
+.img-title-as {
   font-size: 10px;
   color: grey;
   margin-top: 0;
 }
-.sp-as-items-desc h3, .sp-as-items-desc p{
+
+.sp-as-items-desc h3, .sp-as-items-desc p {
   margin: 0;
   padding: 0;
 }
-.space-date{
+
+.space-date {
   color: grey;
   padding-top: 50px;
 }
