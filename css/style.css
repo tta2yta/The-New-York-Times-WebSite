@@ -78,17 +78,21 @@ margin-left: 30%;
 .first-text h3{
   font-size: 1.7rem;
 }
-.theory-of-avi{
+.theory-of-avi-grid{
   border: 1px solid red;
   display: flex;
   flex-direction: row;
   margin-left: 10%;
 }
-.theory-of-avi div img, .theory-of-avi div p{
+.theory-of-avi h3, .theory-of-avi p{
+  margin-bottom: 0;
+  margin-left: 10%;
+}
+.theory-of-avi-grid div img, .theory-of-avi-grid div p{
   width: 280px;
   height: 150px;
 }
-.theory-of-avi div{
+.theory-of-avi-grid div{
   border: 1px solid red;
   margin-right: 20px;
 }
