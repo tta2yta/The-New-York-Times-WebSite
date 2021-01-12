@@ -62,5 +62,16 @@ margin-left: 30%;
   margin-top: 5px;
 }
 .credit {
-  font-size: 9px;
+  font-size: 10px;
+}
+.main-topic {
+
+  margin: 0 300px 0px 300px;
+}
+.name-and-date {
+  text-align: left;
+}
+.first-text p {
+  justify-content: left;
+  font-size: 1.5rem;
 }
