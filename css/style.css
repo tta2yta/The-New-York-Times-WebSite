@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu > div{
+  background-color: #f1f1f1;
+  width: 35%;
+  /* border: 1px solid red; */
+}
+.img-logo{
+  max-width: 250px;
+  margin-top: 7px;
+  /* background-color: #958b9c; */
+
+}
+.img-side-menu, .search-btn-img {
+  background-color: #f1f1f1;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.login{
+  text-align: right;
+}
+.div-logo{
+  text-align: center;
+}
+.login button{
+  margin: 10px 20px  0px 20px;
+}
+.side-menu{
+  margin-top: 10px;
+  margin-left: 20px;
+}
