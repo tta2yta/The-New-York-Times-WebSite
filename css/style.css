@@ -144,3 +144,78 @@ figcaption {
 .bottom-button {
   margin-top: 20px;
 }
+
+
+.letter{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+.letter-head{
+  display: flex;
+  margin-left: 10%;
+}
+
+.letter > section{
+  border: 1px solid red;
+}
+.suggested-letters{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.suggested-letter-items{
+  display: flex;
+  flex-direction: row;
+}
+.suggested-letter-head h2, .popular-letter-head h2{
+  border-top: 1px solid black;
+  margin-right: 20px ;
+}
+.suggested-letter-items > div, .popular > div{
+  border-top: 1px solid black;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid black;
+}
+.suggested-letter-items img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.suggested-letter-items span{
+  display: block;
+  margin: 0;
+  margin-left: 10px;
+}
+
+
+.news-letters-desc{
+  width: 100%;
+}
+.news-letters-desc p, .news-letters-desc h2{
+  margin: 0;
+  margin-left: 10px;
+}
+.news-letters{
+  border: 1px solid grey;
+  margin-right: 20px;
+  padding: 10px;
+}
+.latest{
+  padding-top: 50px;
+  color: #3331ad;
+}
+hr{
+  margin-left: 10%;
+  width: 60%;
+  margin-bottom: 30px;
+  background-color: black;
+  border-color: black;
+}
+.popular-letters{
+display: flex;
+flex-direction: column;
+width: 30%;
+}
