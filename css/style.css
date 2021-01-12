@@ -138,7 +138,8 @@ figcaption {
   font-size: 0.7rem;
   line-height: 1.5rem;
   padding: 5px;
-  width: 70%; 
+  max-width: 70%;
+  width:50%; 
 }
 .bottom-button {
   margin-top: 20px;
