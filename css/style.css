@@ -105,7 +105,7 @@ body{
 }
 .main-topic {
 
-  margin: 0 300px 0px 300px;
+  margin: 0 30% 0px 30%;
 }
 .name-and-date {
   text-align: left;
@@ -147,7 +147,7 @@ body{
   font-size: 1.7rem;
 }
 .main-body-2 {
-  margin: 0 300px 0px 300px;
+  margin: 0 30% 0px 30%;
 }
 figure{
   padding: 0;
