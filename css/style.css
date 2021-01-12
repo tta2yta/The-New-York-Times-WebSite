@@ -128,3 +128,18 @@ figcaption {
   text-decoration: underline;
   color:#666;
 }
+.comment-button {
+  color:white;
+  background-color:rgb(86, 123, 149);
+  border-radius: 4px;
+  border: 1px solid rgb(50, 104, 145);
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  padding: 5px;
+  width: 70%; 
+}
+.bottom-button {
+  margin-top: 20px;
+}
