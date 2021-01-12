@@ -79,20 +79,24 @@ margin-left: 30%;
   font-size: 1.7rem;
 }
 .theory-of-avi-grid{
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   margin-left: 10%;
 }
-.theory-of-avi h3, .theory-of-avi p{
+
+.theory-of-avi h3, .theory-of-avi p.avi-parag{
   margin-bottom: 0;
+  margin-top: 0;
   margin-left: 10%;
+}
+.theory-of-avi p.avi-parag{
+  color: #666;
+  width: 80%;
 }
 .theory-of-avi-grid div img, .theory-of-avi-grid div p{
   width: 280px;
   height: 150px;
 }
 .theory-of-avi-grid div{
-  border: 1px solid red;
   margin-right: 20px;
 }
