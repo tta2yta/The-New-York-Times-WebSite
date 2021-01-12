@@ -172,9 +172,9 @@ figcaption {
   margin-right: 20px ;
 }
 .suggested-letter-items > div, .popular > div{
-  border-top: 1px solid black;
+  border-top: 1px solid #6666;
   padding: 20px 0 20px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #6666;
 }
 .suggested-letter-items img{
   width: 100px;
@@ -196,14 +196,21 @@ figcaption {
   margin: 0;
   margin-left: 10px;
 }
+.news-letters-desc p{
+  padding-bottom: 30px;
+}
 .news-letters{
   border: 1px solid grey;
   margin-right: 20px;
   padding: 10px;
+  width: 33%;
+  position: relative;
 }
 .latest{
   padding-top: 50px;
   color: #3331ad;
+  position: absolute;
+  bottom: 0;
 }
 hr{
   margin-left: 10%;
@@ -219,4 +226,14 @@ width: 30%;
 }
 .bottom-line{
   border-top: 1px solid black;
+}
+.popular-letters li:first-child{
+  border-top: 1px solid #6666 ;
+}
+
+.popular-letters li{
+  border-bottom: 1px solid #6666;
+  padding: 10px;
+  list-style: none;
+  color: black;
 }
