@@ -162,11 +162,15 @@ figcaption {
   flex-direction: column;
   width: 70%;
 }
-.suggested-letter-items{
+.suggested-letter-items, .space-and-astronomy-items{
   display: flex;
   flex-direction: row;
   margin: 20px 0 20px 0;
 }
+.space-and-astronomy-items{
+  margin-top: 0;
+}
+
 .suggested-letter-head h2, .popular-letter-head h2{
   border-top: 1px solid black;
   margin-right: 20px ;
@@ -176,11 +180,21 @@ figcaption {
   padding: 20px 0 20px 0;
   border-bottom: 1px solid #6666;
 }
+.space-and-astronomy-items > div{
+  padding: 20px 0 20px 0;
+}
+.space-and-astronomy-title{
+  font-weight: bold;
+}
 .suggested-letter-items img{
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+.space-and-astronomy-items img{
+  width: 100%;
+  height: 150px;
 }
 .suggested-letter-items span{
   display: block;
@@ -189,14 +203,14 @@ figcaption {
 }
 
 
-.news-letters-desc{
+.news-letters-desc, .sp-as-items-desc{
   width: 100%;
 }
-.news-letters-desc p, .news-letters-desc h2{
+.news-letters-desc p, .news-letters-desc h2, .sp-as-items-desc p, .sp-as-items-desc h2{
   margin: 0;
   margin-left: 10px;
 }
-.news-letters-desc p{
+.news-letters-desc p, .sp-as-items-desc p{
   padding-bottom: 30px;
 }
 .news-letters{
@@ -205,6 +219,11 @@ figcaption {
   padding: 10px;
   width: 33%;
   position: relative;
+}
+.sp-as-items{
+  margin-right: 20px;
+  padding: 10px;
+  width: 33%;
 }
 .latest{
   padding-top: 50px;
@@ -226,6 +245,7 @@ width: 30%;
 }
 .bottom-line{
   border-top: 1px solid black;
+  margin: 20px 0 20px 0;
 }
 .popular-letters li:first-child{
   border-top: 1px solid #6666 ;
@@ -236,4 +256,17 @@ width: 30%;
   padding: 10px;
   list-style: none;
   color: black;
+}
+.img-title-as{
+  font-size: 10px;
+  color: grey;
+  margin-top: 0;
+}
+.sp-as-items-desc h3, .sp-as-items-desc p{
+  margin: 0;
+  padding: 0;
+}
+.space-date{
+  color: grey;
+  padding-top: 50px;
 }
