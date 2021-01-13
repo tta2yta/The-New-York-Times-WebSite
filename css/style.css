@@ -442,3 +442,19 @@ margin-top: -17px;
   text-align: center;
   font-size: 11px;
 }
+
+.social-media-icons {
+  width: 100%;
+  margin:-3% 20% 3% 25%;
+}
+
+.social-media-icons a img{
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.social-inline{
+  display: inline;
+  margin-left: 2%;
+  padding-right: 0px;
+}
