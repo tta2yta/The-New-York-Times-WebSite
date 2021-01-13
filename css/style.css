@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'nyt-imperial'; 
+  color: #333;
 }
 
 .menu {
@@ -117,7 +119,7 @@ body {
 }
 
 .main-topic {
-  margin: 0 30% 0px 30%;
+  margin: 0 20% 0px 20%;
 }
 
 .name-and-date {
@@ -169,7 +171,7 @@ body {
 }
 
 .main-body-2 {
-  margin: 0 30% 0px 30%;
+  margin: 0 20% 0px 20%;
 }
 
 figure {
@@ -347,3 +349,4 @@ width: 30%;
   color: grey;
   padding-top: 50px;
 }
+
