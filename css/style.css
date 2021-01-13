@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'nyt-imperial'; 
   color: #333;
 }
 
@@ -55,7 +54,6 @@ body {
   min-width: 40%;
   max-width: 60%;
   margin-left: 58px;
-  
 }
 
 .login-button {
@@ -92,22 +90,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 100%; 
+  max-width: 100%;
   height: 530px;
 }
 
 .description {
-  text-align:left;
+  text-align: left;
   margin-left: 13%;
-  margin-right:10px;
+  margin-right: 10px;
   font-size: 16px;
-  color :#666;
+  color: #666;
   width: 70%;
   margin-top: 5px;
 }
 
 .credit {
   font-size: 10px;
+  color: #888;
 }
 
 .credit-1::before {
@@ -117,16 +116,16 @@ body {
   height: 1px;
   margin: 0;
   background-color: black;
-  margin-left:8px;
+  margin-left: 8px;
 }
 
 .credit-1 {
   text-align: left;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .main-topic {
-  margin: 0 20% 0px 20%;
+  margin: 0 20% 0 20%;
 }
 
 .name-and-date {
@@ -148,7 +147,8 @@ body {
   margin-left: 10%;
 }
 
-.theory-of-avi h3, .theory-of-avi p.avi-parag {
+.theory-of-avi h3,
+.theory-of-avi p.avi-parag {
   margin-bottom: 0;
   margin-top: 0;
   margin-left: 10%;
@@ -159,112 +159,9 @@ body {
   width: 80%;
 }
 
-.theory-of-avi-grid div img, .theory-of-avi-grid div p {
-  width: 280px;
-  height: 150px;
-}
-
-.theory-of-avi-grid div {
-  margin-right: 20px;
-}
-
 .second-text p {
   justify-content: left;
   font-size: 1.4rem;
-}
-
-.second-text h3 {
-  font-size: 1.7rem;
-}
-
-.main-body-2 {
-  margin: 0 20% 0px 20%;
-}
-
-figure {
-  padding: 0;
-  margin: 0;
-}
-.credit {
-  color: #888;
-}
-
-figcaption {
-  color: #666;
-}
-.bottom-of-page {
-  font-size: 0.8rem;
-  color:#666;
-}
-
-.bottom-of-page a {
-  text-decoration: underline;
-  color:#666;
-}
-
-.comment-button {
-  color:white;
-  background-color:rgb(86, 123, 149);
-  border-radius: 4px;
-  border: 1px solid rgb(50, 104, 145);
-  letter-spacing: 0.05em;
-  text-align: center;
-  font-size: 0.7rem;
-  line-height: 1.5rem;
-  padding: 5px;
-  max-width: 70%;
-  width:50%; 
-}
-
-.bottom-button {
-  margin-top: 20px;
-}
-
-.letter {
-  display: flex;
-  flex-direction: row;
-  margin-left: 10%;
-  margin-right: 10%; 
-}
-
-.letter-head {
-  display: flex;
-  margin-left: 10%;
-}
-
-.suggested-letters {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-}
-
-.suggested-letter-items, .space-and-astronomy-items {
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0 20px 0;
-}
-
-.space-and-astronomy-items {
-  margin-top: 0;
-}
-
-.suggested-letter-head h2, .popular-letter-head h2 {
-  border-top: 1px solid black;
-  margin-right: 20px ;
-}
-
-.suggested-letter-items > div, .popular > div {
-  border-top: 1px solid #6666;
-  padding: 20px 0 20px 0;
-  border-bottom: 1px solid #6666;
-}
-
-.space-and-astronomy-items > div {
-  padding: 20px 0 20px 0;
-}
-
-.space-and-astronomy-title {
-  font-weight: bold;
 }
 
 .suggested-letter-items img {
@@ -279,23 +176,139 @@ figcaption {
   height: 150px;
 }
 
+.news-letters-desc p,
+.news-letters-desc h2,
+.sp-as-items-desc p,
+.sp-as-items-desc h2 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.news-letters-desc p,
+.sp-as-items-desc p {
+  padding-bottom: 30px;
+}
+
+.sp-as-items-desc h3,
+.sp-as-items-desc p {
+  margin: 0;
+  padding: 0;
+}
+
+.theory-of-avi-grid div img,
+.theory-of-avi-grid div p {
+  width: 280px;
+  height: 150px;
+}
+
+.theory-of-avi-grid div {
+  margin-right: 20px;
+}
+
+.second-text h3 {
+  font-size: 1.7rem;
+}
+
+.main-body-2 {
+  margin: 0 20% 0 20%;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  color: #666;
+}
+
+.bottom-of-page {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.bottom-of-page a {
+  text-decoration: underline;
+  color: #666;
+}
+
+.comment-button {
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border-radius: 4px;
+  border: 1px solid rgb(50, 104, 145);
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  padding: 5px;
+  max-width: 70%;
+  width: 50%;
+}
+
+.bottom-button {
+  margin-top: 20px;
+}
+
+.letter {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.letter-head {
+  display: flex;
+  margin-left: 10%;
+}
+
+.suggested-letters {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.suggested-letter-items,
+.space-and-astronomy-items {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+}
+
+.space-and-astronomy-items {
+  margin-top: 0;
+}
+
+.suggested-letter-head h2,
+.popular-letter-head h2 {
+  border-top: 1px solid black;
+  margin-right: 20px;
+}
+
+.suggested-letter-items > div,
+.popular > div {
+  border-top: 1px solid #6666;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #6666;
+}
+
+.space-and-astronomy-items > div {
+  padding: 20px 0 20px 0;
+}
+
+.space-and-astronomy-title {
+  font-weight: bold;
+}
+
 .suggested-letter-items span {
   display: block;
   margin: 0;
   margin-left: 10px;
 }
 
-.news-letters-desc, .sp-as-items-desc {
+.news-letters-desc,
+.sp-as-items-desc {
   width: 100%;
-}
-
-.news-letters-desc p, .news-letters-desc h2, .sp-as-items-desc p, .sp-as-items-desc h2 {
-  margin: 0;
-  margin-left: 10px;
-}
-
-.news-letters-desc p, .sp-as-items-desc p {
-  padding-bottom: 30px;
 }
 
 .news-letters {
@@ -320,9 +333,9 @@ figcaption {
 }
 
 .popular-letters {
-display: flex;
-flex-direction: column;
-width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 .bottom-line {
@@ -330,26 +343,40 @@ width: 30%;
   margin: 20px 0 20px 0;
 }
 
-.popular-letters li:first-child {
-  border-top: 1px solid #6666 ;
-}
-
 .popular-letters li {
   border-bottom: 1px solid #6666;
   padding: 10px;
   list-style: none;
   color: black;
-} 
+}
+
+.lower-list li {
+  font-size: 13px;
+  font-weight: bolder;
+  height: 44px;
+  letter-spacing: 0.04rem;
+  line-height: 44px;
+  border-bottom: 1px solid rgb(221, 206, 206);
+  padding-top: 5px;
+  list-style: none;
+}
+
+.contact-us li {
+  display: inline;
+  list-style: none;
+  line-height: 8px;
+  color: #666;
+  padding-right: 2%;
+}
+
+.popular-letters li:first-child {
+  border-top: 1px solid #666;
+}
 
 .img-title-as {
   font-size: 10px;
   color: grey;
   margin-top: 0;
-}
-
-.sp-as-items-desc h3, .sp-as-items-desc p {
-  margin: 0;
-  padding: 0;
 }
 
 .space-date {
@@ -362,22 +389,20 @@ width: 30%;
   margin-top: 2px;
   margin-left: 40px;
   margin-right: 15px;
-  
 }
 
 .go-to-homepage {
   color: rgb(86, 123, 149);
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 11px;
-    text-decoration: none;
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
 .title-image {
@@ -385,42 +410,19 @@ width: 30%;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #e2e2e2;
-  border-top: 2px solid #e2e2e2;
-}
-.footer{
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-.lower-list li{
-  font-size: 13px;
-  font-weight: bolder;
-  height: 44px;
-  letter-spacing: 0.04rem;
-  line-height: 44px;
-  border-bottom: 1px solid rgb(221, 206, 206);
-  padding-top:5px ;
-  list-style:none;
-}
-
-.lower-list li:first-child{
-margin-top: -17px;
-}
-
-.title-image {
   padding: 5px 0;
   border-top: solid 3px rgb(221, 206, 206);
   font-weight: bold;
   position: relative;
 }
 
-.title-image ::after {
-  content: '';
-  border-bottom: solid 1px rgb(221, 206, 206);
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top:0;
+.footer {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.lower-list li:first-child {
+  margin-top: -17px;
 }
 
 .title-image ::after {
@@ -429,22 +431,14 @@ margin-top: -17px;
   width: 100%;
   position: absolute;
   left: 0;
-  top:0;
-  }
-
-.contact-us li {
-  display: inline;
-  list-style: none;
-  line-height: 8px; 
-  color: #666;
-  padding-right: 2%;
+  top: 0;
 }
 
-.contact-us li a{
+.contact-us li a {
   text-decoration: none !important;
   color: #666;
 }
-    
+
 .footer-list {
   text-align: center;
   font-size: 11px;
@@ -452,16 +446,16 @@ margin-top: -17px;
 
 .social-media-icons {
   width: 100%;
-  margin:-3% 20% 3% 25%;
+  margin: -3% 20% 3% 25%;
 }
 
-.social-media-icons a img{
+.social-media-icons a img {
   margin-right: 20px;
   border-radius: 50%;
 }
 
-.social-inline{
+.social-inline {
   display: inline;
   margin-left: 2%;
-  padding-right: 0px;
+  padding-right: 0;
 }
