@@ -424,3 +424,16 @@ margin-top: -17px;
     left: 0;
     top:0;
     }
+
+    .contact-us li {
+      display: inline;
+      list-style: none;
+      line-height: 8px; 
+      text-decoration: none;
+      color: #666;
+    }
+    
+    .footer-list {
+     text-align: center;
+     font-size: 11px;
+    }
