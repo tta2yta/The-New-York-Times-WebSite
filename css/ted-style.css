@@ -1,0 +1,12 @@
+.form-elem{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-elem > div {
+    border: 1px solid red;;
+}
+.form-elem div:first-child {
+width: 20%;
+text-align: right;
+}
