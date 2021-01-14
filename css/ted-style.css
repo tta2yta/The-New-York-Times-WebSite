@@ -1,4 +1,4 @@
-main{
+main {
   max-width: 100%;
   display: block;
   border: 1px solid red;
@@ -7,42 +7,46 @@ main{
   margin-top: 10%;
 }
 
-h2{
+h2 {
   margin-left: 20%;
   margin-right: 20%;
   background-color: #dbcbcb;
   text-align: center;
 }
 
-.form-elem{
+.form-elem {
   display: flex;
   flex-direction: row;
 }
 
-input[type="text"], input[type="email"], input[type="submit"] {
-    width: 80%;
-    height: 25px;
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 80%;
+  height: 25px;
 }
 
 input[type="radio"] {
-    margin-right: 10%;
-    margin-top: 10px;
+  margin-right: 10%;
+  margin-top: 10px;
+  transform: scale(1.5);
 }
 
 input[type="checkbox"] {
-    width: 20px;
+  transform: scale(2.5);
 }
 
 input[type="submit"] {
-    background-color: rgb(74, 19, 161);
-    height: 35px;
-    font-size: 20px;
-    border-radius: 20%;
+  background-color: rgb(74, 19, 161);
+  height: 35px;
+  font-size: 20px;
+  border-radius: 20%;
 }
 
 .form-elem > div {
-   width: 80%;
+  width: 80%;
 }
+
 .form-elem div:first-child {
   width: 20%;
   text-align: right;
