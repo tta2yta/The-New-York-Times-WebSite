@@ -22,7 +22,8 @@ body {
   background-color: white;
   top: 0;
   position: fixed;
-  width: 80%;
+  width: 100%;
+  height: 2.8rem;
 }
 
 .menu > div {
@@ -68,7 +69,7 @@ body {
 
 .login-button {
   margin-top: 15px;
-  margin-left: 60px;
+  margin-left: 5px;
   min-width: 25%;
   max-width: 25%;
 }
@@ -517,14 +518,8 @@ figcaption {
   height: 20px;
 }
 
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width: 1224px) {
 .footer-tab {
   display: none;
 }
-}
-
-@media only screen  and (max-width : 1224px) {
-.footer-desktop {
-  display: none;
-}
-}
+  }
