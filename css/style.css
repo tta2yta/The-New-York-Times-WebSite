@@ -418,7 +418,6 @@ figcaption {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid #e2e2e2;
   padding: 5px 0;
   border-top: solid 3px rgb(221, 206, 206);
   font-weight: bold;
@@ -474,10 +473,12 @@ figcaption {
   width: 100%;
   margin-left: 3%;
   margin-right: 3%;
+  border: 1px solid red;
 }
 .footer-desktop-cols > div {
   width: 15%;
   margin-top: 20px;
+  border: 1px solid red;
 }
 
 .footer-desktop-cols div li {
@@ -495,7 +496,8 @@ figcaption {
 
 .subscribe {
   border-left: 1px solid rgb(209, 199, 199);
-  padding-left: 5%;
+  /* padding-left: 5%; */
+  border: 1px solid red;
 }
 
 .subscribe ul {
@@ -505,6 +507,11 @@ figcaption {
 .subscribe ul:first-child {
   font-weight: bolder;
   font-size: 16px;
+}
+
+.email-subs{
+  border-bottom: 1px solid rgb(209, 199, 199);
+  padding-bottom: 20px;
 }
 
 .subscribe_svg {
