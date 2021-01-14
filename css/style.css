@@ -493,6 +493,11 @@ figcaption {
   text-decoration: none;
 }
 
+.subscribe {
+  border-left: 1px solid rgb(209, 199, 199);
+  padding-left: 5%;
+}
+
 @media only screen  and (min-width : 1224px) {
 .footer-tab{
   display: none;
