@@ -378,6 +378,11 @@ figcaption {
   padding-right: 2%;
 }
 
+.footer-desktop-cols div li {
+  list-style: none;
+  padding-top: 10px;
+}
+
 .popular-letters li:first-child {
   border-top: 1px solid #666;
 }
@@ -472,17 +477,13 @@ figcaption {
   flex-direction: row;
   max-width: 100%;
   padding-left: 7%;
-  padding-left: 7%;
 }
+
 .footer-desktop-cols > div {
   width: 15%;
   margin-top: 20px;
 }
 
-.footer-desktop-cols div li {
-  list-style: none;
-  padding-top:10px;
-}
 .footer-desktop-cols div ul h4 {
   margin-bottom: 5px;
 }
@@ -506,13 +507,13 @@ figcaption {
   font-size: 16px;
 }
 
-.email-subs{
+.email-subs {
   border-bottom: 1px solid rgb(209, 199, 199);
   padding-bottom: 20px;
 }
 
 .subscribe_svg {
-  width:20px;
+  width: 20px;
   height: 20px;
 }
 
