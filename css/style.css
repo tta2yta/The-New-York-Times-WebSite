@@ -470,15 +470,13 @@ figcaption {
 .footer-desktop-cols {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin-left: 3%;
-  margin-right: 3%;
-  border: 1px solid red;
+  max-width: 100%;
+  padding-left: 7%;
+  padding-left: 7%;
 }
 .footer-desktop-cols > div {
   width: 15%;
   margin-top: 20px;
-  border: 1px solid red;
 }
 
 .footer-desktop-cols div li {
@@ -496,8 +494,7 @@ figcaption {
 
 .subscribe {
   border-left: 1px solid rgb(209, 199, 199);
-  /* padding-left: 5%; */
-  border: 1px solid red;
+  padding-left: 5%;
 }
 
 .subscribe ul {
