@@ -517,7 +517,13 @@ figcaption {
 }
 
 @media only screen  and (min-width : 1224px) {
-.footer-tab{
+.footer-tab {
   display: none;
 }
-  }
+}
+
+@media only screen  and (max-width : 1224px) {
+.footer-desktop {
+  display: none;
+}
+}
