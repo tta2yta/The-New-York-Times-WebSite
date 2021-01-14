@@ -53,14 +53,23 @@ body {
 }
 
 .login {
-  padding-left: 55%;
+position: relative;
 }
 
 .login button {
+ position: absolute;
  margin-right: 20px;
- margin-top:10px;
- background-color: #3331ad;
+ margin-top:7px;
+ background-color:rgb(100, 20, 230);
  border-radius: 10px;
+ padding:5px
+}
+
+.subscribe{
+  left: 60%;
+}
+.login-btn{
+  left: 80%;
 }
 
 .side-menu {
