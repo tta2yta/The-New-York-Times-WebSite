@@ -540,3 +540,53 @@ figcaption {
     display: none;
   }
 }
+
+.my-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 240px;
+  padding-top: 10px;
+}
+
+#texts {
+  height: 15px;
+  border: 1px solid rgb(50, 104, 145);
+}
+
+#emails {
+  height: 15px;
+  border: 1px solid rgb(50, 104, 145);
+}
+
+#comments {
+  margin-top: 5px;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgb(50, 104, 145);
+}
+
+#radios {
+  padding-left: 6px;
+}
+
+.subscription-box {
+  padding-top: 10px;
+}
+
+#submits {
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border-radius: 4px;
+  border: 1px solid rgb(50, 104, 145);
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  padding: 5px;
+  width: 60px;
+  height: 45px;
+  margin-top: 5px;
+}
