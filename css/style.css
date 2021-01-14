@@ -22,18 +22,19 @@ body {
   background-color: white;
   top: 0;
   position: fixed;
-  width: 80%;
+  width: 100%;
+  height: 2.8rem;
 }
 
 .menu > div {
   background-color: white;
-  width: 30%;
+  width: 33.3%;
   margin-bottom: 5px;
 }
 
 .img-logo {
   max-width: 250px;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -44,7 +45,7 @@ body {
   width: 30px;
   height: 30px;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .div-logo {
@@ -63,12 +64,15 @@ body {
   padding: 5px;
   min-width: 40%;
   max-width: 60%;
-  margin-left: 58px;
+}
+
+.login {
+  border: 1px solid red;
 }
 
 .login-button {
+  border: 1px solid red;
   margin-top: 15px;
-  margin-left: 60px;
   min-width: 25%;
   max-width: 25%;
 }
@@ -517,14 +521,14 @@ figcaption {
   height: 20px;
 }
 
-@media only screen  and (min-width : 1224px) {
-.footer-tab {
-  display: none;
-}
+@media only screen  and (min-width: 1224px) {
+  .footer-tab {
+    display: none;
+  }
 }
 
-@media only screen  and (max-width : 1224px) {
-.footer-desktop {
-  display: none;
-}
+@media only screen  and (max-width: 1224px) {
+  .footer-desktop {
+    display: none;
+  }
 }
