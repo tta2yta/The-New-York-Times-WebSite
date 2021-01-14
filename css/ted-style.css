@@ -4,11 +4,14 @@ main{
   border: 1px solid red;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 10%;
 }
 
 h2{
   margin-left: 20%;
   margin-right: 20%;
+  background-color: #dbcbcb;
+  text-align: center;
 }
 
 .form-elem{
