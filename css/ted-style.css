@@ -1,3 +1,12 @@
+main{
+   max-width: 100%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid red;
+    text-align: center;
+}
+
 .form-elem{
     display: flex;
     flex-direction: row;
