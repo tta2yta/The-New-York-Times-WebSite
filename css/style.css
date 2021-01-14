@@ -68,11 +68,19 @@ body {
 }
 
 .login button {
- margin-right: 20px;
- margin-top:7px;
- background-color:rgb(100, 20, 230);
- border-radius: 10px;
- padding:5px
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border-radius: 4px;
+  border: 1px solid rgb(50, 104, 145);
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 5px;
+  max-width: 70%;
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .side-menu {
@@ -323,11 +331,11 @@ figcaption {
 }
 
 .news-letters {
+  position: static;
   border: 1px solid grey;
   margin-right: 20px;
   padding: 10px;
   width: 33%;
-  position: relative;
 }
 
 .sp-as-items {
