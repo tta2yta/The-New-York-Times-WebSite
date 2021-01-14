@@ -1,9 +1,16 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css");
+}
+
 body {
   margin: 0;
   padding: 0;
   color: #333;
+  font-family: georgia, 'times new roman', times, serif;
 }
-.container{
+
+.container {
   width: 100%;
 }
 
@@ -29,7 +36,6 @@ body {
   margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
-  
 }
 
 .img-side-menu,
@@ -419,7 +425,7 @@ figcaption {
   position: relative;
 }
 
-.footer {
+.footer-tab {
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -461,3 +467,22 @@ figcaption {
   margin-left: 2%;
   padding-right: 0;
 }
+
+.footer-desktop-cols {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.footer-desktop-cols > div {
+  width: 15%;
+  border: 1px solid red;
+
+}
+
+@media only screen  and (min-width : 1224px) {
+.footer-tab{
+  display: none;
+}
+  }
