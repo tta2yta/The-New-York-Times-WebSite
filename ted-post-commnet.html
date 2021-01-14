@@ -6,6 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <div class="post-form">
+            <form action="" method="POST">
+            <div class="form-elem">
+                <div><label>Name</label></div>
+                <div><input type="text" name="name" required maxlength="225"></div> 
+            </div>
+            <div class="form-elem">
+                <div><label>E-mail</label></div>
+                <div><input type="email" name="email" required maxlength="225"></div> 
+            </div>
+
+            <div class="form-elem">
+                <div><label>Comment</label></div>
+                <div><textarea name="comment" required maxlength="225"></div> 
+            </div>
+
+            <div class="form-elem">
+                <div><label>What is your overall opinion about this article?</label></div>
+                <div>
+                    <label>Postive</label><input type="radio" name="choice">
+                    <label>Negative</label><input type="radio" name="choice">
+                    <label>Neutral</label><input type="radio" name="choice">
+                </div> 
+            </div>
+
+            <div class="form-elem">
+                <div><label>I want to subscribe to the newsletter</label></div>
+                <div><input type="checkbox" name="subscribe"></div> 
+            </div>
+
+            <div class="form-elem">
+                <div></div>
+                <div><input type="submit" name="submit" value="Send" ></div> 
+            </div>
+        </form>
+        </div>
+    </main>
 </body>
 </html>
