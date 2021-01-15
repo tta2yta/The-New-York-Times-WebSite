@@ -233,9 +233,19 @@ body {
   margin: 0 25% 0 25%;
 }
 
+iframe {
+  width: 100%;
+  height: 380px;
+}
+
 figure {
   padding: 0;
   margin: 0;
+}
+
+.secondary-image {
+  width: 100%; 
+  height: 420px;
 }
 
 figcaption {
