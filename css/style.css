@@ -53,6 +53,10 @@ body {
   margin-left: 20px;
 }
 
+.space-cosmos:hover {
+  text-decoration: underline;
+}
+
 .img-side-menu,
 .search-btn-img {
   background-color: white;
@@ -158,7 +162,7 @@ body {
 }
 
 .main-topic {
-  margin: 0 25% 0 25%;
+  margin: 0 0 0 25%;
 }
 
 .name-and-date {
@@ -168,11 +172,49 @@ body {
 .first-text {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  width: 100%;
+}
+
+.para-cambr {
+  max-width: 60%;
 }
 
 .editor-pick {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.editor-pick > div {
+}
+
+.editor-pick div h4 {
+  margin:150% 10% 10px 30%;
+  border-bottom: 1px solid #6666;
+  padding-bottom: 10px;
+}
+
+.editorial-item {
+  display: flex;
+  flex-direction: row;
+  margin:0 10% 10px 30%
+}
+
+.editorial-item-desc{
+  margin-top: 10px;
+  max-width: 60%;
+}
+
+.editorial-item span a{
+  color: red;
+  margin-top: 10px;
+  max-width: 5%;
+}
+
+.editor-pick img{
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
 }
 
 .first-text p {
@@ -534,13 +576,19 @@ figcaption {
   margin-left: 18%;
 }
 
-.footer-desktop-cols div li a {
+.footer-desktop-cols div li a,
+.editor-pick div span a {
   color: black;
   text-decoration: none;
 }
 
-.footer-desktop-cols div li a:hover {
+.footer-desktop-cols div li a:hover,
+.editor-pick div span a:hover {
   text-decoration: underline;
+}
+
+.editor-pick div span a {
+  color: #666666;
 }
 
 .subscribe {
