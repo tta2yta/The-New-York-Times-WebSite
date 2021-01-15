@@ -510,13 +510,13 @@ figcaption {
 }
 
 .title-image {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 5px 0;
+  display: grid;
+  grid-template-columns: 80% 20%;
   border-top: solid 3px rgb(221, 206, 206);
   font-weight: bold;
   position: relative;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .footer-tab {
@@ -528,10 +528,20 @@ figcaption {
   margin-top: -17px;
 }
 
+.other-button {
+  justify-content: end;
+  padding-top: 20px;
+  text-align: end;
+}
+
+.other-button a {
+  font-size: 13px;
+  margin-right: 0;
+}
+
 .title-image ::after {
   content: '';
   border-bottom: solid 1px rgb(221, 206, 206);
-  width: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -563,15 +573,23 @@ figcaption {
 }
 
 .footer-desktop-cols {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  padding-left: 7%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .footer-desktop-cols > div {
-  width: 15%;
   margin-top: 20px;
+}
+
+.footer-desktop-cols div ul {
+  padding-left:0
+}
+
+.footer-desktop-cols div ul li:first-child {
+  font-weight: bolder;
+  margin-bottom: 7px;
 }
 
 .footer-desktop-cols div h4 {
