@@ -172,6 +172,7 @@ body {
 .first-text {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   width: 100%;
 }
 
@@ -215,6 +216,8 @@ body {
   width: 70px;
   height: 70px;
   margin-right: 10px;
+=======
+>>>>>>> 3bcdc7557dc31f2d17d873ef9672c0ea9b16c535
 }
 
 .first-text p {
