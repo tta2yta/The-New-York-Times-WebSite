@@ -185,6 +185,54 @@
   
     </div> 
   </div>
+  <div class="post-button">
+    <button class="post-btn" type="button">     Post Comment     </button> 
+   </div>
+
+   <div class="post-sec">
+    <main>
+      <h2>Please Post Your Comment </h2>
+      <div class="post-form">
+          <form action="" method="POST">
+          <div class="form-elem">
+              <div><label>Name</label></div>
+              <div><input type="text" name="name" placeholder="UserName"
+                   required maxlength="20"></div> 
+          </div>
+          <div class="form-elem">
+              <div><label>E-mail</label></div>
+              <div><input type="email" name="email" placeholder="Email" required 
+                  maxlength="20" rows="50"></div> 
+          </div>
+
+          <div class="form-elem">
+              <div><label>Comment</label></div>
+              <div><textarea name="comment" placeholder="Type your comment here" maxlength="225" ></textarea></div> 
+          </div>
+
+          <div class="form-elem">
+              <div><label>What is your overall opinion about this article?</label></div>
+              <div>
+                  <label>Postive</label><input type="radio" name="choice" checked>
+                  <label>Negative</label><input type="radio" name="choice">
+                  <label>Neutral</label><input type="radio" name="choice">
+              </div> 
+          </div>
+
+          <div class="form-elem">
+              <div><label>I want to subscribe to the newsletter</label></div>
+              <div><input type="checkbox" name="subscribe" checked></div> 
+          </div>
+
+          <div class="form-elem">
+              <div></div>
+              <div><input type="submit" name="submit" value="Send" ></div> 
+          </div>
+      </form>
+      </div>
+  </main>
+   </div>
+
  </section>
 
  <div class="letter">

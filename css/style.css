@@ -270,6 +270,15 @@ figcaption {
   margin-top: 20px;
 }
 
+.post-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-btn {
+  width: 100%;
+}
+
 .letter {
   display: flex;
   flex-direction: row;
@@ -528,6 +537,59 @@ figcaption {
   width: 20px;
   height: 20px;
 }
+
+h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #dbcbcb;
+  text-align: center;
+}
+
+.form-elem {
+  display: flex;
+  flex-direction: row;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 80%;
+  height: 25px;
+}
+
+input[type="radio"] {
+  margin-right: 10%;
+  margin-top: 10px;
+  transform: scale(1.5);
+}
+
+input[type="checkbox"] {
+  transform: scale(2.5);
+}
+
+input[type="submit"] {
+  background-color: rgb(74, 19, 161);
+  height: 35px;
+  font-size: 20px;
+  border-radius: 20%;
+}
+
+.form-elem > div {
+  width: 80%;
+}
+
+.form-elem div:first-child {
+  width: 20%;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+}
+
 
 @media only screen  and (min-width: 1224px) {
   .footer-tab {
