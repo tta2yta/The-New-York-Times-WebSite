@@ -460,14 +460,6 @@ figcaption {
   list-style: none;
 }
 
-.contact-us li {
-  display: inline;
-  list-style: none;
-  line-height: 8px;
-  color: #666;
-  padding-right: 2%;
-}
-
 .footer-desktop-cols div li {
   list-style: none;
   padding-top: 10px;
@@ -547,14 +539,15 @@ figcaption {
   top: 0;
 }
 
-.contact-us li a {
-  text-decoration: none !important;
-  color: #666;
+.contact-us li {
+  display: inline;
+  list-style: none;
+  line-height: 8px;
+  padding-right: 2%;
 }
 
 .footer-list {
   text-align: center;
-  font-size: 11px;
   border-top: solid 1px rgb(221, 206, 206);
   margin-left: 8%;
   margin-right: 8%;
@@ -563,6 +556,8 @@ figcaption {
 
 .footer-list ul li a{
   font-size: 12px;
+  text-decoration: none;
+  color: #666;
 }
 
 .social-media-icons {
@@ -612,7 +607,8 @@ figcaption {
 }
 
 .footer-desktop-cols div li a:hover,
-.editor-pick div span a:hover {
+.editor-pick div span a:hover,
+.contact-us li a:hover {
   text-decoration: underline;
 }
 
