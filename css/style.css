@@ -490,9 +490,7 @@ figcaption {
 
 .small-title {
   max-width: 200px;
-  margin-top: 2px;
-  margin-left: 40px;
-  margin-right: 15px;
+  margin: 15px 15px 0 0;
 }
 
 .go-to-homepage {
@@ -542,6 +540,8 @@ figcaption {
 .title-image ::after {
   content: '';
   border-bottom: solid 1px rgb(221, 206, 206);
+  padding-top: 1.5px;
+  width: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -555,6 +555,14 @@ figcaption {
 .footer-list {
   text-align: center;
   font-size: 11px;
+  border-top: solid 1px rgb(221, 206, 206);
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 10px 0;
+}
+
+.footer-list ul li a{
+  font-size: 12px;
 }
 
 .social-media-icons {
@@ -580,7 +588,7 @@ figcaption {
 }
 
 .footer-desktop-cols > div {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .footer-desktop-cols div ul {
