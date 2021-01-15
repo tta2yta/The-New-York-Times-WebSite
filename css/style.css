@@ -40,6 +40,19 @@ body {
   margin-right: 15px;
 }
 
+.nav-left-elem {
+  position: relative;
+}
+
+.space-cosmos {
+  position: absolute;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  top: 15px;
+  margin-left: 20px;
+}
+
 .img-side-menu,
 .search-btn-img {
   background-color: white;
