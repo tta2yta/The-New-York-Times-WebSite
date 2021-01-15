@@ -168,11 +168,6 @@ body {
 .first-text {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
-}
-
-.editor-pick {
-  border: 1px solid red;
 }
 
 .first-text p {
