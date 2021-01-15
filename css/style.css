@@ -506,8 +506,9 @@ figcaption {
   margin-top: 20px;
 }
 
-.footer-desktop-cols div ul h4 {
+.footer-desktop-cols div h4 {
   margin-bottom: 5px;
+  margin-left: 18%;
 }
 
 .footer-desktop-cols div li a {
