@@ -186,10 +186,10 @@
     </div> 
   </div>
   <div class="post-button">
-    <button class="post-btn" type="button">     Post Comment     </button> 
+    <button class="post-btn" type="button" onclick="togglepostsec()">     Post Comment     </button> 
    </div>
 
-   <div class="post-sec">
+   <div class="post-sec" id="post-sec">
     <main>
       <h2>Please Post Your Comment </h2>
       <div class="post-form">
@@ -565,5 +565,24 @@
   </ul>
   </nav>
     </main>
+
+    <script>
+      //alert("ok")
+     var element= document.getElementById("post-sec")
+     toggle=true
+     function togglepostsec(){
+       //alert("ok")
+       
+       if(toggle){
+        element.style.display = 'none';
+        toggle=false;
+       }
+       else{
+        element.style.display = 'block';
+        toggle=true;
+       }
+      
+     }
+    </script>
   </body>
 </html>
