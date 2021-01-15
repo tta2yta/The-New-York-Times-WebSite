@@ -516,12 +516,11 @@ figcaption {
 }
 
 .other-button {
-  justify-content: end;
-  padding-top: 20px;
-  text-align: end;
+  padding-top: 5px;
 }
 
 .other-button a {
+  float:right;
   font-size: 13px;
   margin-right: 0;
 }
@@ -558,7 +557,7 @@ figcaption {
 }
 
 .social-media-icons {
-  margin: -3% 20% 3% 25%;
+  margin: -2% 20% 1% 25%;
 }
 
 .social-media-icons a img {
