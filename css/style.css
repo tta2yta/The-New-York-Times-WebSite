@@ -78,7 +78,10 @@ body {
 
 .subscribe-btn {
   width: 80%;
-  text-align: end;
+}
+
+.subscribe{
+  float:right;
 }
 
 .login-btn {
@@ -172,7 +175,6 @@ body {
 .first-text {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   width: 100%;
 }
 
@@ -186,13 +188,11 @@ body {
   width: 40%;
 }
 
-.editor-pick > div {
-}
-
 .editor-pick div h4 {
   margin:150% 10% 10px 30%;
   border-bottom: 1px solid #6666;
   padding-bottom: 10px;
+  float: left;
 }
 
 .editorial-item {
@@ -206,18 +206,15 @@ body {
   max-width: 60%;
 }
 
-.editorial-item span a{
+.editorial-item-desc span a{
   color: red;
-  margin-top: 10px;
-  max-width: 5%;
+  text-decoration: underline;
 }
 
 .editor-pick img{
   width: 70px;
   height: 70px;
   margin-right: 10px;
-=======
->>>>>>> 3bcdc7557dc31f2d17d873ef9672c0ea9b16c535
 }
 
 .first-text p {
