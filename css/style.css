@@ -193,6 +193,7 @@ body {
 
 .editor-pick div h4 {
   margin: 150% 10% 10px 30%;
+  width: 50%;
   border-bottom: 1px solid #6666;
   padding-bottom: 10px;
   float: left;
@@ -292,6 +293,11 @@ body {
   padding: 0;
 }
 
+.social-inline img {
+  margin-right: -2%;
+  padding-top: 0;
+}
+
 .theory-of-avi-grid div img,
 .theory-of-avi-grid div p {
   width: 280px;
@@ -341,6 +347,7 @@ figcaption {
 
 .bottom-button {
   margin-top: 20px;
+  padding-right: 0;
 }
 
 .letter {
@@ -533,16 +540,6 @@ figcaption {
   position: relative;
 }
 
-/* .title-image ::after {
-  content: '';
-  border-bottom: solid 1px rgb(221, 206, 206);
-  padding-top: 1.5px;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border: 1px solid red;
-} */
-
 .footer-list {
   text-align: center;
   border-top: solid 1px rgb(221, 206, 206);
@@ -562,7 +559,7 @@ figcaption {
 }
 
 .social-media-icons a img {
-  margin-right: 20px;
+  margin-right: 2%;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -570,8 +567,7 @@ figcaption {
 
 .social-inline {
   display: inline;
-  margin-left: 2%;
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .footer-desktop-cols {
@@ -582,7 +578,6 @@ figcaption {
 }
 
 .footer-desktop-cols > div {
-  /* margin-top: -10%; */
   margin-top: 0;
 }
 

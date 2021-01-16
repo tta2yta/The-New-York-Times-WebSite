@@ -11,7 +11,6 @@
 
 ![screenshot](./images/nyt-readme-1.png)
 ![screenshot](./images/nyt-readme-2.png)
-![screenshot](./images/nyt-readme-3.png)
 
 ## Tablet
 
@@ -25,7 +24,7 @@
 
 ## Live Demo
 
-<a href="https://raw.githack.com/tta2yta/The-New-York-Times-WebSite/feature/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/e99d9e674480da3e6dc15ca64297cbe11c0eb96f/index.html">Live version</a>
 
 ## Author
 
