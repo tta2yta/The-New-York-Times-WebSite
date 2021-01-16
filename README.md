@@ -11,7 +11,6 @@
 
 ![screenshot](./images/nyt-readme-1.png)
 ![screenshot](./images/nyt-readme-2.png)
-![screenshot](./images/nyt-readme-3.png)
 
 ## Tablet
 
