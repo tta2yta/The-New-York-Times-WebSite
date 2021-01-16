@@ -1,6 +1,8 @@
 # HTML/CSS The New York Times Website Clone
 
-This project is a capstone project developed as a completion of HTML & CSS section of Microverse main curriculum. It is a calloabrative project to showcase HTML & CSS Skills. It is a real-world-like project cloned from The New York Times website. 
+⦁	This project is a capstone project developed as a completion of HTML & CSS section of Microverse main curriculum. It is a calloabrative project to showcase HTML & CSS Skills. 
+⦁	 The project is made according to an article from The New York Times website.
+⦁	 Cloning the webpage was quite an enlightening and informative experience and we learned a lot about the general method and thinking of the real web developers who originaly made it.
 
 ## Desktop
 
