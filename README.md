@@ -25,15 +25,15 @@
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/481445838d527d8b4b8c0855d504617fac47bcb5/index.html">Live version</a>
+<a href="https://raw.githack.com/tta2yta/The-New-York-Times-WebSite/feature/index.html">Live version</a>
 
 ## Author
 
 👤 **Matija Maksimovic and Tedros Tesfay**
 
 - Github: [Tedros Tesfay](https://github.com/tta2yta)
-- Github: https://github.com/Mandeln
 - Emaii: tta2yta@gmail.com
+- Github: https://github.com/Mandeln
 - Email: malistgulvexohmlosur@gmail.com
 
 
