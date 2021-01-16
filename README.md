@@ -20,7 +20,7 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/f0806b676a2412a669cdce3865ec0bd1a564bbe4/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/d72b91901f28d096bc40668ed440d796b78994c6/index.html">Live version</a>
 
 ## Author
 
