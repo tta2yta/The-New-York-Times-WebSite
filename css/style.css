@@ -452,6 +452,11 @@ figcaption {
   list-style: none;
 }
 
+.footer-top-text {
+  font-size: 13px;
+  color: #666;
+}
+
 .contact-us li {
   display: inline;
   list-style: none;
