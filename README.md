@@ -1,6 +1,11 @@
 # HTML/CSS The New York Times Website Clone
 
-This project is a capstone project developed as a completion of HTML & CSS section of Microverse main curriculum. It is a calloabrative project to showcase HTML & CSS Skills. It is a real-world-like project cloned from The New York Times website. 
+⦁	This project is a capstone project developed as a completion of HTML & CSS section of Microverse main curriculum. It is a calloabrative project to showcase HTML & CSS Skills.&nbsp;
+
+⦁	 The project is made according to an article from The New York Times website.&nbsp;
+
+⦁	 Cloning the webpage was quite an enlightening and informative experience and we learned a lot about the general method and thinking of the real web developers who originaly made it.
+
 
 ## Desktop
 
@@ -20,19 +25,17 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/d72b91901f28d096bc40668ed440d796b78994c6/index.html">Live version</a>
+<a href="https://raw.githack.com/tta2yta/The-New-York-Times-WebSite/feature/index.html">Live version</a>
 
 ## Author
 
 👤 **Matija Maksimovic and Tedros Tesfay**
 
 - Github: [Tedros Tesfay](https://github.com/tta2yta)
-- Github: https://github.com/Mandeln
 - Emaii: tta2yta@gmail.com
+- Github: https://github.com/Mandeln
 - Email: malistgulvexohmlosur@gmail.com
 
-
-👤
 
 ## 🤝 Contributing
 
