@@ -293,6 +293,11 @@ body {
   padding: 0;
 }
 
+.social-inline img {
+  margin-right: -2%;
+  padding-top: 0;
+}
+
 .theory-of-avi-grid div img,
 .theory-of-avi-grid div p {
   width: 280px;
@@ -563,13 +568,8 @@ figcaption {
 .social-inline {
   display: inline;
   margin-right: 0;
-
 }
 
-.social-inline img {
-  margin-right: -2%;
-  padding-top: 0;
-}
 .footer-desktop-cols {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
