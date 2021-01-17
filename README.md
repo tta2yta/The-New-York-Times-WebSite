@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/58c28b7daffab69b7662eb11112b9137386491c0/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/tta2yta/The-New-York-Times-WebSite/6485d8a93894faaca45691da4d8794a8077520b8/index.html">Live version</a>
 
 ## Author
 
